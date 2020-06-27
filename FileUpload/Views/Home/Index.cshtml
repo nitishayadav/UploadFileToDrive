@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+
+    <form action="Home/Index" method="POST">
+        <h1>Assignment</h1><br />
+        <input type="submit" class="btn btn-primary" value="Upload" />
+        <label>@ViewBag.Message</label>
+    </form>
+
+</div>
